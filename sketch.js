@@ -28,7 +28,7 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(720,480);
+  createCanvas(windowWidth, windowHeight);//720,480
   ellipseMode(RADIUS);
   background(0,0,0);
   frameRate(50);
